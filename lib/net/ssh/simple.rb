@@ -693,7 +693,7 @@ module Net
         end
 
         def to_s
-          "#{@wrapped} @ #{@result}"
+          @wrapped.to_s
         end
       end
 
